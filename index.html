@@ -2,9 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Grant Propel</title>
+    <meta name="theme-color" content="#051915" />
+    <meta
+      name="description"
+      content="Grant Propel sends small businesses and nonprofits grant opportunities worth a real look, with eligibility details and deadlines laid out plainly."
+    />
+    <script>
+      ;(function () {
+        function fit() {
+          var w = document.documentElement.clientWidth || window.innerWidth
+          var z = w >= 1280 ? Math.min(w, 1920) / 1440 : 1
+          document.documentElement.style.setProperty('--artboard-zoom', String(z))
+        }
+        fit()
+        window.addEventListener('resize', fit)
+      })()
+    </script>
+    <title>Grant Propel - Funding that takes you further</title>
   </head>
   <body>
     <div id="root"></div>
